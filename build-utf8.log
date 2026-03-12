@@ -1,0 +1,62 @@
+﻿
+> portfolio@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+node.exe : 
+At C:\Program Files\nod
+ejs\npm.ps1:29 char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (:String) [],    
+ RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Failed to compile.
+
+./components/layout/Foo
+ter.tsx
+1:8  Error: 'Link' is 
+defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+
+./components/sections/C
+ontact.tsx
+41:21  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esli
+nt/no-explicit-any
+
+./components/sections/H
+ero.tsx
+5:45  Error: 'Mail' is 
+defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+
+./components/sections/P
+rojects.tsx
+7:18  Error: 
+'ExternalLink' is 
+defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+
+info  - Need to 
+disable some ESLint 
+rules? Learn more 
+here: https://nextjs.or
+g/docs/basic-features/e
+slint#disabling-rules
