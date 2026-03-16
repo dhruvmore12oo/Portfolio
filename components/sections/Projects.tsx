@@ -64,10 +64,10 @@ export function Projects() {
             {PROJECTS.map((project, index) => (
               <motion.div
                 key={project.title}
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                transition={{ duration: 0.7, delay: index * 0.1 }}
               >
                 <Card className="h-full flex flex-col bg-card/80 backdrop-blur-sm shadow-sm overflow-hidden border border-border/50 group hover:border-primary/50 transition-all duration-300">
                   <CardHeader className="space-y-4">

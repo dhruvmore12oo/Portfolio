@@ -17,13 +17,41 @@ const NAV_LINKS = [
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+
+    // Setup intersection observer to highlight navbar links during scroll
+    const observerOptions = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id);
+        }
+      });
+    }, observerOptions);
+
+    NAV_LINKS.forEach((link) => {
+      const targetId = link.href.substring(1);
+      const docElement = document.getElementById(targetId);
+      if (docElement) {
+        observer.observe(docElement);
+      }
+    });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      observer.disconnect();
+    };
   }, []);
 
   return (
@@ -46,7 +74,11 @@ export function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                className={`text-sm transition-colors hover:text-primary ${
+                  activeSection === link.href.substring(1)
+                    ? "text-primary font-bold"
+                    : "text-foreground font-medium"
+                }`}
               >
                 {link.name}
               </Link>
@@ -74,7 +106,11 @@ export function Navbar() {
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:text-primary hover:bg-muted transition-colors"
+                className={`block px-3 py-2 rounded-md text-base transition-colors hover:bg-muted/50 ${
+                  activeSection === link.href.substring(1)
+                    ? "text-primary font-bold"
+                    : "text-foreground font-medium hover:text-primary"
+                }`}
               >
                 {link.name}
               </Link>

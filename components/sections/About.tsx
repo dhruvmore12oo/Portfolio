@@ -7,10 +7,10 @@ export function About() {
     <section id="about" className="py-24 bg-card/50">
       <div className="container mx-auto px-4 md:px-8">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.8 }}
           className="max-w-3xl mx-auto space-y-8"
         >
           <div className="text-center space-y-4">

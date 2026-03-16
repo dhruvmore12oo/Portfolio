@@ -52,10 +52,10 @@ export function Profiles() {
               return (
                 <motion.div
                   key={profile.platform}
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={{ opacity: 0, y: 40 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-50px" }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  transition={{ duration: 0.7, delay: index * 0.1 }}
                 >
                   <a href={profile.url} target="_blank" rel="noopener noreferrer" className="block h-full outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-xl">
                     <Card className={`h-full bg-card/50 backdrop-blur-sm border-border hover:border-primary/50 transition-all duration-300 group overflow-hidden ${profile.bgColor}`}>
