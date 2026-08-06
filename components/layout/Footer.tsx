@@ -2,8 +2,6 @@ import { Github, Linkedin, Code2, Mail, Phone } from "lucide-react";
 import { CodeforcesIcon } from "@/components/icons/CodeforcesIcon";
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
-
   return (
     <footer className="bg-card border-t border-border py-12">
       <div className="container mx-auto px-4 md:px-8">

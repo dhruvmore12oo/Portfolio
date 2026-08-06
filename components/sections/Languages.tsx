@@ -1,8 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Languages as LanguagesIcon, Globe } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
+import { Globe } from "lucide-react";
 
 const LANGUAGES = [
   { name: "English", level: "Professional Working Proficiency" },
