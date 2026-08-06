@@ -17,7 +17,7 @@ const PROJECTS = [
       "Built REST APIs using Spring Boot and Spring Data JPA for end-to-end data processing.",
       "Implemented secure authentication and fine-grained role-based access control (Admin, Officer, Investigator) using JWT and Spring Security."
     ],
-    githubUrl: "https://github.com/dhruvmore12oo/Portfolio",
+    githubUrl: "https://github.com/dhruvmore12oo/Investigation-Tracking-Solution",
     icon: ShieldCheck,
     badgeText: "Enterprise Backend"
   },
@@ -31,7 +31,7 @@ const PROJECTS = [
       "Designed budget and expense tracking features to help users monitor travel spending in real time.",
       "Developed collaborative and community-sharing features for shared trip planning."
     ],
-    githubUrl: "https://github.com/dhruvmore12oo/Portfolio",
+    githubUrl: "https://github.com/dhruvmore12oo/HackathonOdoo",
     icon: Compass,
     badgeText: "Full-Stack Web App"
   },
