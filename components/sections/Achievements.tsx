@@ -6,6 +6,27 @@ import { Trophy, Code2, Award } from "lucide-react";
 
 const ACHIEVEMENTS = [
   {
+    title: "1st Runner-Up – Arbitrum Builder Pods Showcase",
+    description: "Won 1st Runner-Up at the Arbitrum Builder Pods Showcase organized by Lampros DAO with ChainGuard, an automated parametric disaster micro-insurance Web3 platform.",
+    stat: "1st Runner-Up",
+    icon: Trophy,
+    badge: "Lampros DAO / Arbitrum",
+  },
+  {
+    title: "1st Runner-Up – HackArena 2026",
+    description: "Secured 1st Runner-Up with team ByteSquad at HackArena 2026 (hosted by Neuralize AI/ML & Dev Infinity clubs) for SplitX, an on-chain digital subscription duration trading platform.",
+    stat: "1st Runner-Up",
+    icon: Trophy,
+    badge: "HackArena 2026",
+  },
+  {
+    title: "Top 10% in Odoo Hackathon",
+    description: "Ranked in the top 10% out of all developer teams in the nation-wide Odoo Hiring Hackathon with high-impact software design.",
+    stat: "Top 10%",
+    icon: Award,
+    badge: "National Hackathon",
+  },
+  {
     title: "300+ DSA Problems Solved",
     description: "Across LeetCode and Codeforces platforms, mastering fundamental Data Structures, Algorithms, and Problem-Solving techniques.",
     stat: "300+",
@@ -16,15 +37,8 @@ const ACHIEVEMENTS = [
     title: "Rank 1300 in ACPC",
     description: "Secured Rank 1300 in the Arab Competitive Programming Contest (Regional Contest), competing against top algorithmic teams.",
     stat: "Rank 1300",
-    icon: Trophy,
-    badge: "Regional Contest",
-  },
-  {
-    title: "Top 10% in Odoo Hackathon",
-    description: "Ranked in the top 10% out of all developer teams in the nation-wide Odoo Hiring Hackathon with high-impact software design.",
-    stat: "Top 10%",
     icon: Award,
-    badge: "National Hackathon",
+    badge: "Regional Contest",
   },
 ];
 

@@ -20,8 +20,7 @@ export function Education() {
       institution: "Utkarsh Vidhyalaya",
       location: "Vadodara, Gujarat, India",
       highlights: [
-        { label: "Overall Score", value: "82.2%" },
-        { label: "Science Stream", value: "95.5%" }
+        { label: "GSEB Score", value: "95%" }
       ],
       icon: BookOpen,
     },

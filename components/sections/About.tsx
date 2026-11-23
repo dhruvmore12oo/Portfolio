@@ -22,13 +22,13 @@ export function About() {
 
           <div className="prose prose-lg dark:prose-invert max-w-none text-muted-foreground leading-relaxed space-y-6 text-justify md:text-left text-lg">
             <p>
-              I am a Computer Science & Engineering undergraduate at The Maharaja Sayajirao University of Baroda, passionate about building scalable backends, full-stack web applications, and solving complex algorithmic challenges.
+              I am a Computer Science & Engineering undergraduate at The Maharaja Sayajirao University of Baroda, passionate about building robust backend platforms, Web3 decentralized protocols, deep learning architectures, and solving complex algorithmic challenges.
             </p>
             <p>
-              With a strong academic foundation (GPA 8.81 / 10 | JEE Percentile 93.75%), my core technical expertise centers on modern Java enterprise backend systems (Spring Boot, Spring Security, Spring Data JPA, JWT) as well as modern frontend frameworks like React and TypeScript.
+              With a strong academic foundation (GPA 8.81 / 10 | JEE Percentile 93.75%), my core technical stack includes Java enterprise backend systems (Spring Boot, Spring Security, Spring Data JPA, JWT), Python deep learning frameworks (PyTorch, CNN architectures, Streamlit), and Web3 smart contract engineering (Solidity, Arbitrum Sepolia).
             </p>
             <p>
-              An active competitive programmer and hackathon developer, I have solved over 300+ DSA problems across LeetCode & Codeforces, ranked 1300 in the ACPC Regional Contest, and finished in the Top 10% of the Odoo Hackathon.
+              An active competitive programmer and hackathon builder, I have solved 300+ DSA problems across LeetCode & Codeforces, secured 1st Runner-Up at the Arbitrum Builder Pods Showcase (Lampros DAO) with ChainGuard, 1st Runner-Up at HackArena 2026 with SplitX, ranked in the Top 10% of the Odoo Hackathon, and achieved Rank 1300 in the ACPC Regional Contest.
             </p>
           </div>
         </motion.div>

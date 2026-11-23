@@ -7,23 +7,24 @@ import { Briefcase, Building2 } from "lucide-react";
 
 const EXPERIENCES = [
   {
-    role: "Backend Developer (Hackathons)",
-    organization: "Team Projects (4–5 Members)",
-    type: "Project / Hackathons",
+    role: "Backend & Web3 Developer (Hackathons)",
+    organization: "ByteSquad / Hackathon Teams",
+    type: "Hackathons & Competitions",
     icon: Briefcase,
     bullets: [
-      "Designed and implemented relational database architecture, backend workflows, and RESTful APIs across multiple hackathon projects.",
-      "Partnered closely with frontend developers to integrate APIs into cohesive end-to-end applications under tight hackathon deadlines."
+      "Designed and implemented smart contracts, relational databases, and RESTful APIs across competitive hackathons (Arbitrum Builder Pods, HackArena 2026, Odoo Hackathon).",
+      "Built on-chain escrow logic, oracle data feed integrations, and backend payout pipelines with team ByteSquad, securing multiple 1st Runner-Up podium finishes.",
+      "Collaborated closely with frontend developers and smart contract engineers to integrate complex Web3/Web2 architectures under tight hackathon deadlines."
     ]
   },
   {
     role: "Junior Coordinator",
-    organization: "Training & Placement Cell (TNP Cell), The Maharaja Sayajirao University of Baroda",
-    type: "Leadership & Organization",
+    organization: "Training and Placement (TNP) Cell, The Maharaja Sayajirao University of Baroda",
+    type: "Leadership & Coordination",
     icon: Building2,
     bullets: [
-      "Coordinated placement activities, student training sessions, and campus recruitment drives.",
-      "Assisted corporate recruiters and facilitated student onboarding sessions."
+      "Contributed to placement-related activities, campus recruitment drives, and company coordination as an active member of the TNP Cell.",
+      "Assisted in organizing and coordinating student-focused placement sessions, workshops, and interview logistics."
     ]
   }
 ];

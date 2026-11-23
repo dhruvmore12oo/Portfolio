@@ -37,7 +37,7 @@ export function Hero() {
           </div>
 
           <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
-            Computer Science undergraduate passionate about building scalable backends, full-stack web applications, and solving complex algorithmic challenges.
+            Computer Science undergraduate passionate about building scalable backends, Web3 smart contracts, deep learning solutions, and solving complex algorithmic challenges.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-2">

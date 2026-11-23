@@ -8,12 +8,12 @@ const SKILL_CATEGORIES = [
   {
     title: "Programming Languages",
     icon: Code,
-    skills: ["C", "C++", "Java", "JavaScript", "SQL"],
+    skills: ["C", "C++", "Java", "Python", "Solidity", "JavaScript", "SQL"],
   },
   {
-    title: "Frameworks & Technologies",
+    title: "Frameworks & Libraries",
     icon: Layers,
-    skills: ["Spring Boot", "Spring Security", "Spring Data JPA", "JWT", "React", "TypeScript"],
+    skills: ["Spring Boot", "Spring Security", "Spring Data JPA", "React", "PyTorch", "Streamlit", "PyTest", "TypeScript", "JWT"],
   },
   {
     title: "Databases",
@@ -23,7 +23,7 @@ const SKILL_CATEGORIES = [
   {
     title: "Core Concepts",
     icon: Cpu,
-    skills: ["Data Structures & Algorithms", "Object-Oriented Programming (OOP)", "REST APIs", "Database Design"],
+    skills: ["Data Structures & Algorithms", "Object-Oriented Programming (OOP)", "REST APIs", "Database Design", "Smart Contracts", "Machine Learning"],
   },
 ];
 
